@@ -9,8 +9,8 @@
     position: relative;
     font-family: "Goudy Bookletter 1911", sans-serif;
     font-size: 20px;
-    background-color: #FDF8F5;
-    color: #4F4846;
+    background-color: #007419ef;
+    color: #c7c400;
   }
   
   h1,
@@ -30,7 +30,7 @@
   
   a {
     text-decoration: none;
-    color: #FDF8F5;
+    color: #c7c400;
   }
   
   header,
@@ -38,20 +38,20 @@
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: #266150;
+    background-color: #947245;
   }
   
   header {
     position: fixed;
-    border-bottom: 10px solid #DDAF94;
+    border-bottom: 10px solid 048620;
   }
   
   footer {
     position: absolute;
     margin-top: 0;
     bottom: 0;
-    border-bottom: 10px solid #4F4846;
-    color: #FDF8F5;    
+    border-bottom: 10px solid #c7c400;
+    color: #c7c400;    
   }
   
   figure {
@@ -61,13 +61,15 @@
   img {
     display: block;
     margin: 20px auto;
+    padding: 20px;
+    background-color: #c7c400;
   }
   
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
+    border-top: 3px solid #c7c400;
+    background-color:  #007419ef;
   }
   
   form {
@@ -75,7 +77,7 @@
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid #DDAF94;
+    border: 5px solid #c7c400;
     border-radius: 20px;
   }
   
@@ -88,7 +90,7 @@
   textarea {
     box-sizing: border-box;
     width: 300px;
-    border: 1px solid #4F4846;
+    border: 1px solid #007419ef;
   }
   
   textarea {
@@ -99,8 +101,8 @@
   button {
     height: 40px;
     width: 120px;
-    background-color: #4F4846;
-    color: #FDF8F5;
+    background-color: #000000;
+    color: #c7c400;
   }
    
   /* Class Selectors */
@@ -111,4 +113,4 @@
   .text-right {
     text-align: right;
   }
-  
+ 
